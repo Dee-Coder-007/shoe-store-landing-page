@@ -111,3 +111,96 @@ body {
   color: #e5e7eb;
   text-align: center;
 }
+
+/* Info Section */
+.info-section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.info-section h3 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin-bottom: 40px;
+}
+
+.info-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.info-item {
+  flex: 1;
+  min-width: 180px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.info-item:hover {
+  background-color: #f3f4f6;
+  border-radius: 10px;
+  transform: scale(1.05);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.cart {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+.illustration-box {
+  width: 100%;
+  border: 2px solid #3882f6;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.info-img {
+  width: 100%;
+  border-radius: 10px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.info-item p {
+  font-size: 14px;
+  color: #1f2937;
+}
+
+/* Buttons */
+.btn {
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-outline {
+  border: 2px solid white;
+  background-color: #3882f6;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #2563eb;
+  transition: background-color 0.3s ease;
+}
+
+.btn-outline:hover {
+  background-color: #2563eb;
+  border-color: #2563eb;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
