@@ -204,3 +204,62 @@ body {
   border-color: #2563eb;
   transition: background-color 0.3s ease, border-color 0.3s ease;
 }
+
+/* Quote Section */
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 60px 20px;
+}
+
+.quote-container {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-author {
+  margin-top: 20px;
+  text-align: right;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* CTA Section */
+.cta-section {
+  padding: 60px 20px;
+}
+
+.cta-box {
+  background-color: #3882f6;
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cta-text h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.cta-text p {
+  font-size: 16px;
+  color: #e5e7eb;
+}
+
+/* Footer */
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+
